@@ -17,17 +17,19 @@
  
  
 ### R Packages Utilized
- In other to perform all the statistical analysis and gather the data from Twitter we utilized several packages:
+ In other to perform all the statistical analysis and develop the application we utilized several packages:
   Package Name | Package Name |  Package Name |  Package Name |
 | --- | --- | --- |--- |
  |tidyverse | shiny | shinycssloaders | shinyalert |
- plotly | ggwordcloud |  jsonlite | rsconnect |
+ |plotly | ggwordcloud |  rcurl | rsconnect |
 
 
 
  <br/>
  
  ## Code
+ The code to generate the vizualizations and the source code of the application are available at the folder called "Code". All source code is written in R. All visualizationas are aailiable at the folder called "Images". Finally, a report of the entire research is available at the folder "Report".
+ 
  
  ## External Content
  
