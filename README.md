@@ -1,8 +1,8 @@
 
 
 <p align="center">
-<h1>Clickstrem-in-a-Self-regulated-Learning-Environment-A-Data-Collection-Tool </h1>
-  <br> <h3> Enzo Novi Migliano &nbsp;&nbsp;(*@EnzoNMigliano*), &nbsp;&nbsp; ST. Thomas University Carnival Cruise Lines School of Science </h3>
+<h2>Clickstrem-in-a-Self-regulated-Learning-Environment-A-Data-Collection-Tool </h2>
+<h3> Enzo Novi Migliano - @EnzoNMigliano* - ST. Thomas University Carnival Cruise Lines School of Science </h3>
 </p>
 
 ## Summary
