@@ -6,23 +6,23 @@
 </p>
 
 ## Summary
-&nbsp; &nbsp; Under the broad research question: <code> **What are the impacts of COVID-19 in one's life?** </code> Our team collected Twitter data to answer research hypothesis, producing models, and have a better understanding of the factors that influence one's reaction to the global pandemic. Our team collected more than 300 thousand tweets ranging from 2009 to November of 2020. We utilized the open source software R [1] and the Rstudio [2] in order to gather the tweets and perform the different statistical analysis. We also utilized Git [3] and GitHub [4] to organize and share our project with the community. If you wish to check the coding behind all the statistical models and ohter relavant topics of the project, please access the folder named "Scripts". If you wish to have access to the graphs generated throughout our project, please acess the folder named "Images".
-
-
- 
- ### R Packages Utilized
- In other to perform all the statistical analysis and gather the data from Twitter we utilized several packages:
- |  | Package Name | | Package Name |  | Package Name | | Package Name |
-| --- | --- | --- |--- | --- | --- | --- |--- |
-| [5] | tidyverse | [6] | corrplot | [7] | caTools | [8] | caret |
-| [9] | forecast | [10] | arules | [11] | arulesViz | [12] | lubridate |
-| [13] | stringr | [14] | tm | [15] | quanteda | [16] | reshape2 |
-| [17] | lda | [18] | syuzhet | [19] | wordcloud2 | [20] | RColorBrewer |
-| [21] | party | [22] | rpart | [23] | rpart.plot | [24] | e1071 |
-| [25] | rtweet  | [26] | RMySQL | [27] | odbc | [28] | DBI |
+&nbsp; &nbsp; Under research question: <code> ** How to construct a Shiny App that collects user’s behavioral data?** </code> The present study assesses the feasibility of an application that collects users’ behavioral data in a Shiny App application. The tool is meant for educational settings. The goal is to equip professors with valuable data that allows them to understand the needs and wants of students. The application developed in the present study integrates a database and a programming application interface in order to store and retrieve the data. Also, the application collects several data regarding the student interaction with graphs and their respective timestamp. Finally, the present study suggests possible analyses a professor may perform with the student’s behavioral data. 
 
 
 ### Findings
+
+**Figure 1**
+
+**Figure 2**
+ 
+ 
+### R Packages Utilized
+ In other to perform all the statistical analysis and gather the data from Twitter we utilized several packages:
+  Package Name | Package Name |  Package Name |  Package Name |
+| --- | --- | --- |--- |
+ |tidyverse | shiny | shinycssloaders | shinyalert |
+ plotly | ggwordcloud |  jsonlite | rsconnect |
+
 
 
  <br/>
