@@ -12,9 +12,9 @@
 ### Findings
 
 **Figure 1**
-
+ [![IMAGE ALT TEXT](https://raw.githubusercontent.com/EnzoNMigliano/Clickstrem-in-a-Self-regulated-Learning-Environment-A-Data-Collection-Tool/main/Images/User%20Interaction.png)]
 **Figure 2**
- 
+  [![IMAGE ALT TEXT](https://raw.githubusercontent.com/EnzoNMigliano/Clickstrem-in-a-Self-regulated-Learning-Environment-A-Data-Collection-Tool/main/Images/Distribution.png)]
  
 ### R Packages Utilized
  In other to perform all the statistical analysis and develop the application we utilized several packages:
