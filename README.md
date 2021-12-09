@@ -13,11 +13,11 @@
 
 **Figure 1**
 
- [![IMAGE ALT TEXT](https://raw.githubusercontent.com/EnzoNMigliano/Clickstrem-in-a-Self-regulated-Learning-Environment-A-Data-Collection-Tool/main/Images/User%20Interaction.png)]
+ [![IMAGE ALT TEXT](https://raw.githubusercontent.com/EnzoNMigliano/Clickstrem-in-a-Self-regulated-Learning-Environment-A-Data-Collection-Tool/main/Images/User%20Interaction.png)](https://github.com/EnzoNMigliano/Clickstrem-in-a-Self-regulated-Learning-Environment-A-Data-Collection-Tool/blob/main/Code/graph%20for%20the%20results%20section.Rmd "Graphs")
  
 **Figure 2**
 
-  [![IMAGE ALT TEXT](https://raw.githubusercontent.com/EnzoNMigliano/Clickstrem-in-a-Self-regulated-Learning-Environment-A-Data-Collection-Tool/main/Images/Distribution.png)]
+  [![IMAGE ALT TEXT](https://raw.githubusercontent.com/EnzoNMigliano/Clickstrem-in-a-Self-regulated-Learning-Environment-A-Data-Collection-Tool/main/Images/Distribution.png)](https://github.com/EnzoNMigliano/Clickstrem-in-a-Self-regulated-Learning-Environment-A-Data-Collection-Tool/blob/main/Code/graph%20for%20the%20results%20section.Rmd "Graphs")
  
  The collection of clickstream data in self-regulated learning environment has great potential. Statistical tests to check the normality of the distribution of events in different graphs will help instructors empirically address if events are normally distributed (has a normal distribution of events) or if it is not normally distributed (has a not normal distribution of events). The professor should investigate events that are not normally distributed for reasons why that happened. For example, a professor may ask for feedback from the students regarding problems with a specific graph. The professor may have an overall understanding of the user's in-app behavior through observing the events across a timeline (see figure 7). For example, if a user have an exponential number of events followed by a plato, the plato phase is likely towards the end of the user interaction. Also, if a user has several peaks of interaction, it may be because the user spends more time understanding the visualization, and it may indicate difficulty in understanding the material. This visualization has numerous possible insights for the professor. However, they all should be followed by a causal investigation of the phenomenon. In conclusion, the results of the pilot test of the Shiny App available at https://enzo-migliano.shinyapps.io/Explore_STEM_Majors/ demonstrated the feasibility of accessing behavioral data from users at educational Shiny Apps.
  
