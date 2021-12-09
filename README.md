@@ -28,7 +28,7 @@
  <br/>
  
  ## Code
- The code to generate the vizualizations and the source code of the application are available at the folder called "Code". All source code is written in R. All visualizationas are aailiable at the folder called "Images". Finally, a report of the entire research is available at the folder "Report".
+ The code to generate the vizualizations and the source code of the application are available at the folder called "Code". All source code is written in R. All visualizationas are availiable at the folder called "Images". Finally, a report of the entire research is available at the folder "Report".
  
  
  ## External Content
