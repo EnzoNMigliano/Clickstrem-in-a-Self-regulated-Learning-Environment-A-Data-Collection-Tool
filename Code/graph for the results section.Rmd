@@ -1,0 +1,108 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(readxl)
+```
+
+
+```{r}
+grapheventsfinal <- read.csv("https://github.com/EnzoNMigliano/Clickstrem-in-a-Self-regulated-Learning-Environment-A-Data-Collection-Tool/blob/main/Data/not_cleaned_final_logs.csv")
+
+```
+
+
+
+```{r}
+summary(grapheventsfinal)
+```
+
+
+
+```{r}
+ggplot(data = grapheventsfinal) +
+  geom_histogram(mapping = aes(x=event4,
+                               fill = event3),
+                 stat = "count",
+                 position= "dodge") +
+  labs(title = "Nested Events: Categorical & Contiuous Variable",
+       fill = "Graph Type",
+       y = "Count",
+       x = "categorical Variable") +
+  theme_minimal()
+```
+
+
+
+
+```{r}
+ggplot(data = grapheventsfinal) +
+  geom_histogram(mapping = aes(x=event1,
+                               fill = event1),
+                 stat = "count") +
+  labs(title = "Number of Events Per Graph Type",
+       fill = "Graph Type",
+       y = "Count") +
+  theme_minimal()
+  
+```
+
+```{r}
+grapheventsfinal %>% 
+  filter(event1 == "histogram")%>%
+ggplot() +
+  geom_histogram(mapping = aes(y=event2,
+                               fill = event2),
+                 stat = "count") +
+  labs(title = "Number of Events Per Graph Type: Histogram",
+       fill = "Graph Type",
+       x = "Count",
+       y = NULL) +
+  theme_minimal()
+```
+```{r}
+grapheventsfinal %>% 
+  filter(event1 == "scatterplot")%>%
+ggplot() +
+  geom_histogram(mapping = aes(y=event2,
+                               fill = event2),
+                 stat = "count") +
+  labs(title = "Number of Events Per Graph Type: Scatter Plot",
+       fill = "Graph Type",
+       x = "Count",
+       y = NULL) +
+  theme_minimal()
+```
+
+```{r}
+grapheventsfinal %>% 
+  filter(event1 == "line")%>%
+ggplot() +
+  geom_histogram(mapping = aes(y=event2,
+                               fill = event2),
+                 stat = "count") +
+  labs(title = "Number of Events Per Graph Type: Line Plot",
+       fill = "Graph Type",
+       x = "Count",
+       y = NULL) +
+  theme_minimal()
+```
+
+
+```{r}
+grapheventsfinal %>% 
+  filter(event1 == "boxplot")%>%
+ggplot() +
+  geom_histogram(mapping = aes(y=event2,
+                               fill = event2),
+                 stat = "count") +
+  labs(title = "Number of Events Per Graph Type: Box PLot",
+       fill = "Graph Type",
+       x = "Count",
+       y = NULL) +
+  theme_minimal()
+```
+
